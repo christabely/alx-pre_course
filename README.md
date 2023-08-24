@@ -47,12 +47,15 @@ git add .
 git commit -m 'required_commit_message)
 git push
 
-Q4. Go to Github, click on README.md, update it with a new statement' save, commit.
+Q4. Go to Github, click on README.md, update it with a new statement', commit with a statement, save changes
 move to the alx-pre_course repo usin:
 cd .. 
 or cd alx-pre_course
+type: git pull (to get changes made on git)
+Alternatively, move to the alx-pre_course repo, update the README.md, add, commit and push. 
 vi up_to_date
-content of the "up_to_date" file should be "
+content of the "up_to_date" file should be "git pull"
+git add, commit and push
 
 Q5. To change to your main branch, use the command: git checkout main
 or: git checkout master
