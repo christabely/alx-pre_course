@@ -45,7 +45,9 @@ vi school (make the necessary changes)
 cd .. (return to the 0x01-git dir)
 git add .
 git commit -m 'required_commit_message)
-git push
+To push, use the command: git push --set-upstream origin branch_name. Eg.
+git push --set-upstream origin update_script 
+(We're using this push command because we used the <git checkout -b branch_name> instead of creating a new branch with the command: <git branch branch_name> and then switching to the new branch with the command <git checkout new_branch>) 
 
 Q4. Go to Github, click on README.md, update it with a new statement', commit with a statement, save changes
 move to the alx-pre_course repo usin:
@@ -75,7 +77,7 @@ git push
 
 Q6. vi .gitignore
 cat .gitignore 
-~ Emach file
+~ Emacs file
 Esc:wq 
 
 
